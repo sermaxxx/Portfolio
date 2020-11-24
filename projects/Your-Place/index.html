@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Stylesheet -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+
+
+
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="header__logo" href="">
+          <picture>
+            <source srcset="images/logo-mobile.svg" media="(max-width: 576px)">
+            <img src="images/logo.svg" alt="logo">
+          </picture>
+        </a>
+        <ul class="header__menu">
+          <li class="header__item">
+            <a data-menuanchor="home" class="header__link active" href="#home">
+              Главная
+            </a>
+          </li>
+          <li class="header__item">
+            <a data-menuanchor="about" class="header__link" href="#about">О нас</a>
+          </li>
+          <li class="header__item">
+            <a data-menuanchor="works" class="header__link" href="#works">
+              Наши работы
+            </a>
+          </li>
+          <li class="header__item">
+            <a data-menuanchor="faq" class="header__link" href="#faq">
+              FAQ
+            </a>
+          </li>
+          <li class="header__item">
+            <a data-menuanchor="contact" class="header__link" href="#contact">
+              Контакты
+            </a>
+          </li>
+        </ul>
+        <div class="header__burger">
+          <div>
+          </div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Home -->
+  <div id="fullpage">
+
+    <section class="page-section home" id="home" data-anchor="home">
+      <div class="container">
+        <h1 class="home__title page-title">Дизайн вашего любимого места</h1>
+        <div class="home__inner">
+          <p class="home__text">Компания Your-Place , которая занимается дизайном интерьеров много лет и имеем огрмное
+            количество успешных проектов. Мы стараемся воссоздать атмосферу, которую вы хотели бы иметь
+          </p>
+          <div class="home__slider header-slider">
+            <div class="header-slider__inner">
+              <div class="home__slide"><img src="images/home-1.png" alt="interior design"></div>
+              <div class="home__slide"><img src="images/home-2.png" alt="interior design"></div>
+              <div class="home__slide"><img src="images/home-3.png" alt="interior design"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- About -->
+
+    <section class="page-section about" id="about" data-anchor="about">
+      <div class="container">
+        <h2 class="page-title about__title">О нас</h2>
+        <h3 class="about__text">Компания Your-Place , которая занимается дизайном интерьеров много лет и имеем огромное
+          количество успешных проектов. Мы стараемся воссоздать атмосферу, которую вы хотели бы иметь</h3>
+        <div class="about__paragraphs">
+          <p class="about__paragraph">Мы сотрудничаем только с лучшими компаниями по производству мебели и других
+            элементов интерьера. Вся продукция, которую нам предоставляют партнеры имеет лучшее качество на рынке</p>
+          <p class="about__paragraph">А также мы предостовляем гарантийным талон, благодаря которому вы можете заменить
+            продукцию в случае брака или других недостатков</p>
+        </div>
+        <div class="about__img"><img src="images/logo-big.png" alt="logo house"></div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- Works -->
+
+    <section class="page-section works" id="works" data-anchor="works">
+      <div class="container">
+        <div class="works__inner">
+          <div class="works__slider">
+            <div class="works__slide">
+              <img src="images/works-1.jpg" alt="design interior">
+              <div class="works__about">Задний двор в стиле модерн</div>
+            </div>
+            <div class="works__slide">
+              <img src="images/works-2.jpg" alt="design interior">
+              <div class="works__about">Столовая в деловом стиле</div>
+            </div>
+            <div class="works__slide">
+              <img src="images/works-3.jpg" alt="design interior">
+              <div class="works__about">Дворика в стиле Дзен</div>
+            </div>
+            <div class="works__slide">
+              <img src="images/works-4.jpg" alt="design interior">
+              <div class="works__about">Гостинная в нежном и уютном стиле soft</div>
+            </div>
+            <div class="works__slide">
+              <img src="images/works-5.jpg" alt="design interior">
+              <div class="works__about">Гостинная в сочетании нежности, строгости и зелени</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- FAQ -->
+
+    <section class="page-section faq" id="faq" data-anchor="faq">
+      <div class="container">
+        <div class="faq__title page-title">FAQ</div>
+        <div class="faq__items">
+          <div class="faq__item">
+            <div class="faq__inner  faq__inner--active">
+              <h3 class="faq__question">Что делать, если я не знаю, какой дизайн я хочу? </h3>
+              <button class="faq__btn"><img src="images/arrow-down.svg" alt="arrow down ico"></button>
+            </div>
+            <div class="faq__content">
+              <p class=" faq__answer">Наши дизайнеры проведут для вас небольшой опрос, чтобы понять, что вам
+                симпотизирует. После этого будут представлены варианты работ, которые вы сможете править</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <div class="faq__inner">
+              <h3 class="faq__question">Сколько времени будет разрабатываться дизайн?</h3>
+              <button class="faq__btn"><img src="images/arrow-down.svg" alt="arrow down ico"></button>
+            </div>
+            <div class="faq__content" style="display: none;">
+              <p class="faq__answer">От недели до месяца, все зависит от сложности работы, а также от занятости наших
+                дизайнеров</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <div class="faq__inner">
+              <h3 class="faq__question">Как оплачивается работа? </h3>
+              <button class="faq__btn"><img src="images/arrow-down.svg" alt="arrow down ico"></button>
+            </div>
+            <div class="faq__content" style="display: none;">
+              <p class="faq__answer">В начале вы оплачиваете залог размером 50% от общей суммы заказа. Когда дизайн
+                будет готов вы должны будете оплатить оставшиеся 50%</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <div class="faq__inner">
+              <h3 class="faq__question">Я буду наблюдать за процессом создания дизайна? </h3>
+              <button class="faq__btn"><img src="images/arrow-down.svg" alt="arrow down ico"></button>
+            </div>
+            <div class="faq__content" style="display: none;">
+              <p class="faq__answer">Мы будем уведомлять вас на всей протяжении работы. Вы можете вносить правки и
+                делиться своими идеями в ходе работы</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Contact -->
+
+    <section class="page-section contact" id="contact" data-anchor="contact">
+      <div class="container">
+        <h2 class="page-title contact__title">Контакты</h2>
+        <div class="contact__inner">
+          <div class="contact__form contact-form">
+            <h4 class="contact-form__title">Остались вопросы? </h4>
+            <p class="contact-form__text">Мы обязательно свяжемся с вами в течение двух рабочих дней</p>
+            <input class="contact-form__input" type="text" placeholder="Ваше имя">
+            <input class="contact-form__input" type="text" placeholder="Ваш e-mail">
+            <textarea class="contact-form__textarea" placeholder="Что вас интересует?"></textarea>
+            <button class="contact-form__btn">Отправить</button>
+          </div>
+          <div class="contact__about">
+
+            <div class="contact__info">
+              <div class="contact__city">Москва</div>
+              <a class="contact__phone" href="tel:74995272267">+7 (499) 527– 22 – 67</a>
+              <a class="contact__email" href="mailto:yourplace@mail.ru">yourplace@mail.ru</a>
+            </div>
+
+            <div class="contact__social contact-social">
+              <a class="contact-social__item" href="#"><img src="images/facebook.svg" alt="facebook ico"></a>
+              <a class="contact-social__item" href="#"><img src="images/instagram.svg" alt="instagram ico"></a>
+              <a class="contact-social__item" href="#"><img src="images/youtube.svg" alt="youtube ico"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </div>
+
+
+
+
+
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

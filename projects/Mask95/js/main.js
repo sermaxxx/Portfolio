@@ -32,11 +32,12 @@ const burger = document.querySelector('.header__burger');
 const menu = document.querySelector('.header__menu');
 const menuLinks = document.querySelectorAll('.header__link');
 const grayWrapper = document.querySelector('.gray-wrapper');
-
+const orderBtn = document.querySelector('.order__btn');
 
 burger.addEventListener('click', showMenu);
 menuLinks.forEach(link => { link.addEventListener('click', hideMenu); })
 grayWrapper.addEventListener('click', hideMenu);
+orderBtn.addEventListener('click', ()=> {alert('Заявка принята')})
 
 
 function showMenu() {
