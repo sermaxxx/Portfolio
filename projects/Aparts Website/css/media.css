@@ -1,0 +1,437 @@
+@media (max-width: 1200px) {
+  .header__title {
+    font-size: 36px;
+  }
+  .about__title, .advantages-transfer__title, .advantages-transfer__title {
+    font-size: 32px;
+  }
+  .header__text, .about__text, .advantages-transfer__text, .about__lasttext {
+    font-size: 16px;
+  }
+  .header__text {
+    margin-bottom: 120px;
+  }
+  .header__form {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .header__input-item, .header__select-item, .header__select-item .jq-selectbox__select, .header__input, .header__input-item, .header__input-item:focus {
+    width: 220px;
+  }
+  .about__img svg {
+    width: 100%;
+  }
+  .about__items {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .advantages-transfer__items {
+    align-items: flex-start;
+  }
+  .advantages-transfer__crclogo {
+    text-align: right;
+  }
+  .advantages-transfer__crclogo svg {
+    width: 100%;
+  }
+  .header__submit {
+    margin-top: 20px;
+  }
+  .catalog__items {
+    justify-content: space-around;
+  }
+  .info__service {
+    position: relative;
+    max-width: 230px;
+    display: flex;
+  }
+  .info__service img {
+    width: 100%;
+  }
+  .info__map iframe {
+    width: 700px;
+  }
+  .flatpage {
+    padding: 50px 0;
+  }
+  .flatpage__inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .flatpage__gallery, .flatpage__info {
+    padding: 0;
+  }
+  .swiper-container {
+    width: 800px;
+  }
+  .flatpage__info {
+    text-align: center;
+  }
+  .flatpage__about {
+    justify-content: center;
+  }
+  .flatpage__form {
+    margin-bottom: 50px;
+  }
+  .flatpage__input-item, .flatpage__select-item .jq-selectbox__select {
+    width: 240px;
+  }
+  .flatpage__desc {
+    margin-bottom: 50px;
+  }
+  .flatpage__input .picker--opened .picker__holder {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header__inner {
+    text-align: center;
+  }
+  .header__form {
+    display: inline-block;
+    text-align: left;
+  }
+  .header__input-item, .header__select-item, .header__select-item .jq-selectbox__select, .header__input, .header__input-item, .header__input-item:focus {
+    width: 400px;
+  }
+  .header__input, .header__select {
+    margin-top: 20px;
+  }
+  .header__main {
+    min-height: 900px;
+  }
+  .header__input .picker--opened .picker__holder {
+    width: auto;
+  }
+  .header__title {
+    padding-top: 70px;
+  }
+  .header__text {
+    margin-bottom: 50px;
+  }
+  .advantages__item {
+    flex: 1 1 33.333%;
+  }
+  .advantages__text {
+    opacity: 1;
+  }
+  .advantages-transfer {
+    text-align: center;
+  }
+  .advantages-transfer__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages-transfer__select-item {
+    text-align: left;
+  }
+  .advantages-transfer__crclogo {
+    width: 50%;
+  }
+  .advantages__title {
+    text-align: center;
+  }
+  .info__map iframe {
+    width: 600px;
+  }
+  .flatpage__input-item, .flatpage__select-item .jq-selectbox__select {
+    width: 340px;
+  }
+  .flatpage__input, .flatpage__select {
+    margin-right: 30px;
+  }
+  .flatpage__formtop {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .flatpage__aparts {
+    margin-bottom: 10px;
+  }
+  .flatpage__inputs {
+    justify-content: center;
+  }
+  .header__main, .advantages {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 1000px) {
+  .info__service {
+    position: relative;
+    max-width: 200px;
+    display: flex;
+  }
+  .info__service img {
+    width: 100%;
+  }
+  .info__items {
+    flex-direction: column-reverse;
+  }
+  .info__map iframe {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .about__item {
+    margin-top: 20px;
+  }
+  .about__title2 {
+    margin-bottom: 50px;
+  }
+  .advantages-transfer__text {
+    line-height: 25px;
+  }
+  .info__title {
+    text-align: center;
+  }
+  .info__services {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .info__service {
+    max-width: 350px;
+    margin-top: 30px;
+  }
+  .info__service {
+    margin-right: 30px;
+  }
+  .swiper-container {
+    width: 100%;
+  }
+  .flatpage__input-item, .flatpage__select-item .jq-selectbox__select {
+    width: 325px;
+  }
+}
+
+@media (max-width: 800px) {
+  h2 {
+    margin-bottom: 30px;
+  }
+  .header__burger {
+    display: block;
+  }
+  .menu ul {
+    background-color: #23397A;
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 38px;
+    z-index: 50;
+  }
+  
+  .menu li {
+    display: block;
+    text-align: center;
+  }
+  .menu li+li {
+    padding-left: 0;
+  }
+  .menu a {
+    color: #fff;
+  }
+
+  .about__inner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about__text {
+    margin-bottom: 50px;
+  }
+  .about__img {
+    margin-left: 0;
+  }
+  .about__img svg {
+    width: 100%;
+  }
+  .advantages__title {
+    margin-bottom: 50px;
+  }
+  .advantages__item {
+    flex: 1 1 50%;
+    margin-top: 30px;
+  }
+  .advantages-transfer__crclogo {
+    width: 80%;
+    margin-top: 50px;
+  }
+  .catalog__title {
+    text-align: center;
+  }
+  .flatpage__input, .flatpage__select {
+    margin-right: 0;
+  }
+  .flatpage__input-item, .flatpage__select-item .jq-selectbox__select {
+    width: 380px;
+  }
+}
+
+@media (max-width: 700px) {
+  .advantages-transfer__crclogo {
+    margin-top: 30px;
+  }
+  .footer__top, .footer__bottom {
+    flex-direction: column;
+  }
+  .footer__logo, .footer__tel, .footer__socials, .footer__creator, .footer__email, .footer__copyright {
+    margin-top: 30px;
+  }
+  .gallery-thumbs .swiper-slide img {
+    max-height: 90px;
+  }
+}
+
+@media (max-width: 600px) {
+  .advantages-transfer__crclogo {
+    width: 100%;
+  }
+  .advantages-transfer__crclogo svg {
+    height: auto;
+    margin-top: 50px;
+  }
+  .info__title {
+    margin-bottom: 50px;
+  }
+  .info__services {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .info__service {
+    max-width: 400px;
+    margin-top: 30px;
+  }
+  .info__service {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .block__padding {
+    padding: 70px 0;
+  }
+  .header__phone, .header__email, .header__btn {
+    font-size: 10px;
+  }
+  .header__input-item, .header__select-item, .header__select-item .jq-selectbox__select, .header__input, .header__input-item, .header__input-item:focus {
+    width: 280px;
+  }
+  .header__text {
+    margin-bottom: 50px;
+  }
+  .header__main {
+    min-height: 1000px;
+  }
+  .about__inner {
+    margin-bottom: 60px;
+  }
+  .about__text {
+    margin-bottom: 30px;
+  }
+  .advantages__item {
+    flex: 1 1 100%;
+  }
+  .advantages__text {
+    max-width: 280px;
+  }
+  .advantages-transfer__input, .advantages-transfer__select-item, .advantages-transfer__select-item .jq-selectbox__select, .advantages-transfer__input-item, .advantages-transfer__textarea-item {
+    width: 350px;
+  }
+  .header__title, h2 {
+    font-size: 32px;
+  }
+  .flatpage__desc-title, .flatpage__locations-title, .flatpage__advantages-title {
+    text-align: center;
+  }
+  .flatpage__advantages-subtitle {
+    text-align: left;
+  }
+  .flatpage__advantages {
+    text-align: center;
+  }
+  .flatpage__advantages {
+    margin-bottom: 0px;
+  }
+  .flatpage__advantages-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .flatpage__input-item, .flatpage__select-item .jq-selectbox__select {
+    width: 300px;
+  }
+  .flatpage__bedrooms, .flatpage__rooms, .flatpage__meters {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header__form {
+    padding: 35px;
+  }
+  .header__input .picker--opened .picker__holder {
+    width: auto;
+  }
+  .flatpage__adress {
+    font-size: 16px;
+  }
+  .flatpage__bedroom, .flatpage__room, .flatpage__meter {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 370px) {
+  .header__top {
+    display: none;
+  }
+  .header__form {
+    padding: 30px;
+  }
+  .header__input-item, .header__select-item, .header__select-item .jq-selectbox__select, .header__input, .header__input-item, .header__input-item:focus {
+    width: 220px;
+  }
+  .header__main {
+    min-height: 1100px;
+  }
+  .advantages-transfer__input, .advantages-transfer__select-item, .advantages-transfer__select-item .jq-selectbox__select, .advantages-transfer__input-item, .advantages-transfer__textarea-item {
+    width: 300px;
+  }
+  .catalog__adress {
+    font-size: 12px;
+  }
+  .catalog__bedroom, .catalog__room, .catalog__meter {
+    font-size: 12px;
+  }
+  .catalog__name {
+    font-size: 15px;
+  }
+  .catalog__bedroom, .catalog__room, .catalog__meter {
+    margin-right: 5px;
+  }
+  .info__contact {
+    font-size: 14px;
+  }
+  .info__social {
+    margin-right: 6px;
+  }
+  .flatpage__advantage-name, .flatpage__distance-item, .flatpage__desc-text {
+    font-size: 14px;
+  }
+  .flatpage__locations {
+    margin-bottom: 50px;
+  }
+  .flatpage__input-item, .flatpage__select-item .jq-selectbox__select {
+    width: 260px;
+  }
+  .flatpage__bedrooms, .flatpage__rooms, .flatpage__meters {
+    padding: 10px 10px;
+  }
+  .flatpage__bedrooms, .flatpage__rooms, .flatpage__meters {
+    margin-right: 10px;
+  }
+}

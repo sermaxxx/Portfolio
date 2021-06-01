@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/classic.css">
+  <link rel="stylesheet" href="css/classic.date.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="header__top">
+      <div class="container">
+        <div class="header__contacts">
+          <div v class="header__contact">
+            <a class="header__email" href="mailto:info@aparts.uz">
+              <img class="header__email-ico" src="images/icons/envelope.svg" alt="">
+              info@aparts.uz
+            </a>
+            <a class="header__phone" href="tel:+998999100300">
+              <img class="header__phone-ico" src="images/icons/phone.svg" alt="">
+              +998 999 100 300</a>
+          </div>
+          <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">
+            <img class="header__btn-ico" src="images/icons/phonedots.svg" alt="">
+            Обратный звонок
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="header__content">
+      <div class="container">
+        <div class="header__content-inner">
+          <div class="header__logo">
+            <a href="index.html">
+              <img src="images/logo.svg" alt="">
+            </a>
+          </div>
+          <nav class="menu">
+            <div class="header__burger">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="index.html #about">О нас</a></li>
+              <li><a class="header__link--active" href="catalog.html">Каталог</a></li>
+              <li><a href="index.html #transfer">Трансфер</a></li>
+              <li><a href="index.html #contacts">Контакты</a></li>
+              <!-- <li><a href="#"><img src="images/icons/gb.svg" alt=""></a></li> -->
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- ================================================================= -->
+
+  <div class="wrapper">
+    <main class="main">
+      <section class="flatpage ">
+        <div class="container">
+          <div class="flatpage__inner">
+            <div class="flatpage__gallery">
+              <div id="simpleModal" class="modal">
+                <div class="modal-content">
+                  <span class="closeBtn">&times;</span>
+                  <!-- Swiper modal -->
+                  <div id="swiper-container-modal" class="swiper-container-modal">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide swiper-slide-modal">
+                        <div class="swiper-zoom-container">
+                          <img class="swiper-lazy swiper-lazy-modal" data-src="images/uzbummansard-1.jpg">
+                        </div>
+                      </div>
+                      <div class="swiper-slide swiper-slide-modal">
+                        <div class="swiper-zoom-container">
+                          <img class="swiper-lazy swiper-lazy-modal" data-src="images/uzbummansard-2.jpg">
+                        </div>
+                      </div>
+                      <div class="swiper-slide swiper-slide-modal">
+                        <div class="swiper-zoom-container">
+                          <img class="swiper-lazy swiper-lazy-modal" data-src="images/uzbummansard-3.jpg">
+                        </div>
+                      </div>
+                      <div class="swiper-slide swiper-slide-modal">
+                        <div class="swiper-zoom-container">
+                          <img class="swiper-lazy swiper-lazy-modal" data-src="images/uzbummansard-4.jpg">
+                        </div>
+                      </div>
+                      <div class="swiper-slide swiper-slide-modal">
+                        <div class="swiper-zoom-container">
+                          <img class="swiper-lazy swiper-lazy-modal" data-src="images/uzbummansard-5.jpg">
+                        </div>
+                      </div>
+                      <div class="swiper-slide swiper-slide-modal">
+                        <div class="swiper-zoom-container">
+                          <img class="swiper-lazy swiper-lazy-modal" data-src="images/uzbummansard-6.jpg">
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div id="swiper-pagination-modal" class="swiper-pagination"></div>
+                    <!-- Add Pagination -->
+                    <div id="swiper-button-next-modal" class="swiper-button-next"></div>
+                    <div id="swiper-button-prev-modal" class="swiper-button-prev"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Swiper -->
+              <div class="swiper-container swiper-container-main">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide minimum-height"><img class="swiper-slide-img"
+                      src="images/uzbummansard-1.jpg"></div>
+                  <div class="swiper-slide minimum-height"><img class="swiper-slide-img"
+                      src="images/uzbummansard-2.jpg"></div>
+                  <div class="swiper-slide minimum-height"><img class="swiper-slide-img"
+                      src="images/uzbummansard-3.jpg"></div>
+                  <div class="swiper-slide minimum-height"><img class="swiper-slide-img"
+                      src="images/uzbummansard-4.jpg"></div>
+                  <div class="swiper-slide minimum-height"><img class="swiper-slide-img"
+                      src="images/uzbummansard-5.jpg"></div>
+                  <div class="swiper-slide minimum-height"><img class="swiper-slide-img"
+                      src="images/uzbummansard-6.jpg"></div>
+                </div>
+                <div class="flatpage__next"><img src="images/icons/arrow-right.svg" alt=""></div>
+                <div class="flatpage__prev"><img src="images/icons/arrow-left.svg" alt=""></div>
+              </div>
+
+              <!-- Swiper thumbnails -->
+              <div class="swiper-container gallery-thumbs">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swiper-slide-thumbs">
+                    <img src="images/uzbummansard-1.jpg">
+                  </div>
+                  <div class="swiper-slide swiper-slide-thumbs">
+                    <img src="images/uzbummansard-2.jpg">
+                  </div>
+                  <div class="swiper-slide swiper-slide-thumbs">
+                    <img src="images/uzbummansard-3.jpg">
+                  </div>
+                  <div class="swiper-slide swiper-slide-thumbs">
+                    <img src="images/uzbummansard-4.jpg">
+                  </div>
+                  <div class="swiper-slide swiper-slide-thumbs">
+                    <img src="images/uzbummansard-5.jpg">
+                  </div>
+                  <div class="swiper-slide swiper-slide-thumbs">
+                    <img src="images/uzbummansard-6.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flatpage__info">
+              <h2 class="flatpage__title">Двухэтажная квартира с мансардой 21 </h2>
+              <p class="flatpage__adress">Ташкент, Мирабадский р-н, ул. Шароф Рашидов </p>
+              <div class="flatpage__about">
+                <div class="flatpage__bedrooms">
+                  <div class="flatpage__bedroom-ico">
+                    <img src="images/icons/bed-orange.svg" alt="">
+                  </div>
+                  <div class="flatpage__bedroom">3 спальни</div>
+                </div>
+                <div class="flatpage__rooms">
+                  <div class="flatpage__room-ico">
+                    <img src="images/icons/door-orange.svg" alt="">
+                  </div>
+                  <div class="flatpage__room">4 комнаты</div>
+                </div>
+                <div class="flatpage__meters">
+                  <div class="flatpage__meter-ico">
+                    <img src="images/icons/alayout-orange.svg" alt="">
+                  </div>
+                  <div class="flatpage__meter">120 м<sup>2</sup></div>
+                </div>
+              </div>
+              <form class="flatpage__form">
+                <div class="flatpage__formtop">
+                  <div class="flatpage__price">100$ / сутки</div>
+                  <a class="flatpage__aparts">aparts.uz</a>
+                </div>
+                <div class="flatpage__inputs">
+                  <div class="flatpage__input flatpage__input-name">
+                    <input class="flatpage__input-item " type="text" placeholder="Имя">
+                  </div>
+                  <div class="flatpage__input flatpage__input-tel">
+                    <input class="flatpage__input-item " type="tel" placeholder="Номер телефона">
+                  </div>
+                  <div class="flatpage__input">
+                    <input class="flatpage__input-item flatpage__input-date" type="date" placeholder="Дата">
+                  </div>
+                  <div class="flatpage__select">
+                    <select class="flatpage__select-item" name="" id="" placeholder="fs">
+                      <option value="1">1 гость</option>
+                      <option value="2">2 гостя</option>
+                      <option value="3">3 гостя</option>
+                      <option value="4">4 гостя</option>
+                      <option value="5">5 гостей</option>
+                      <option value="6">6 гостей</option>
+                      <option value="7">7 гостей</option>
+                      <option value="8">8 гостей</option>
+                      <option value="9+">более 9 гостей</option>
+                    </select>
+                  </div>
+                </div>
+                <button class="flatpage__submit" type="submit">Оставить заявку</button>
+              </form>
+            </div>
+          </div>
+          <div class="flatpage__desc">
+            <h3 class="flatpage__desc-title">Описание</h3>
+            <p class="flatpage__desc-text">Сдается уютная и просторная 4 Комнатная 2ух этажная квартира с мансардой в
+              Мирабадском районе. Площадь-120кв.м в 5ти этажном доме. Тихие и дружелюбные соседи. Дорога до центра
+              города на машине займет 5-10 минут. </p>
+          </div>
+          <div class="flatpage__locations">
+            <h3 class="flatpage__locations-title">Расположение</h3>
+            <ul class="flatpage__distance">
+              <li class="flatpage__distance-item"> <img class="flatpage__distance-img"
+                  src="images/icons/train-orange.svg" alt=""> 7 минут до Северного вокзала</li>
+              <li class="flatpage__distance-item"> <img class="flatpage__distance-img"
+                  src="images/icons/palace-orange.svg" alt=""> 5-10 минут до Центра Города</li>
+            </ul>
+          </div>
+          <div class="flatpage__advantages">
+            <div class="flatpage__advantages-title">Удобства</div>
+
+
+
+            <div class="flatpage__area">
+              <div class="flatpage__advantages-subtitle">На теретории</div>
+              <div class="flatpage__items">
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/parking.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Паркинг на 2 места</div>
+                </div>
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/playground-orange.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Детская площадка</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flatpage__main">
+              <div class="flatpage__advantages-subtitle">Основные</div>
+              <div class="flatpage__items">
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/wifi.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Wi-Fi Интернет</div>
+                </div>
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/tv-orange.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Телевизор</div>
+                </div>
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/air-orange.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Кондиционер</div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="flatpage__bathroom">
+              <div class="flatpage__advantages-subtitle">Спальня и прачечная</div>
+              <div class="flatpage__items">
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/soap-orange.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Предметы первой необходимости</div>
+                </div>
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/washing machine.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Стиральная машина</div>
+                </div>
+
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/hair-dryer-orange.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Фен</div>
+                </div>
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/iron-orange.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Утюг</div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="flatpage__kitchen">
+              <div class="flatpage__advantages-subtitle">Кухня</div>
+              <div class="flatpage__items">
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/fridge-orange.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Холодильник</div>
+                </div>
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/microwave-orange.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Микроволновка</div>
+                </div>
+                <div class="flatpage__advantage">
+                  <div class="flatpage__advantage-image"><img class="flatpage__advantage-img"
+                      src="images/icons/cooker-orange.svg" alt=""></div>
+                  <div class="flatpage__advantage-name">Плита</div>
+                </div>
+
+              </div>
+            </div>
+
+            <a class="flatpage__backcatalog" href="catalog.html">Вернуться в каталог</a>
+
+
+
+
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <!-- ====================================================== -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__items">
+          <div class="footer__top">
+            <a class="footer__logo" href="">
+              <img src="images/logo-footer.svg" alt="">
+            </a>
+            <a class="footer__tel" href="">
+              <img src="images/icons/phone-white.svg" alt="">
+              +9989942424242
+            </a>
+            <div class="footer__socials">
+              <a class="footer__social" href=""><img src="images/icons/telegram-footer.svg" alt=""></a>
+              <a class="footer__social" href=""><img src="images/icons/youtube-footer.svg" alt=""></a>
+              <a class="footer__social" href=""><img src="images/icons/instagram-footer.svg" alt=""></a>
+              <a class="footer__social" href=""><img src="images/icons/facebook-footer.svg" alt=""></a>
+              <a class="footer__social" href=""><img src="images/icons/whatsapp-footer.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__creator">Создание сайта: <a href="">Sermax</a></div>
+            <a class="footer__email" href="">
+              <img src="images/icons/envelope-white.svg" alt="">
+              info@aparts.uz
+            </a>
+            <p class="footer__copyright">© Aparts, 2021</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="modal">
+    <form>
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Ваш телефон">
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
+
+  <div id="send">
+    <p>Ваша заявка успешно отправлена</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.formstyler.min.js"></script>
+  <script src="js/picker.js"></script>
+  <script src="js/picker.date.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
